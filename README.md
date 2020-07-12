@@ -1,5 +1,6 @@
 # Smart Contracts using Web3j
 > Project not complete
+
 Use Web3j – Lightweight Java and Android library for integration with Ethereum clients.<br/>
 This exercise will show how to create contract wrappers from native java code, deploy contracts and how to interact with an already deployed contract on the Ethereum Ropsten Testnet.
 
@@ -34,7 +35,9 @@ This will create a wrapper class of the contract. NOTE: You may need to restart 
 In the `main/java` application folder create a file named _ContractService.java_. Then, create a class called `ContractService`, which will handle the connection Ropsten and handle the contract's deployment, load and call of it.
 
 Make sure you follow these steps when you create a Java Class file:<br/>
-Right click on the `folder/package` -> `[New]` -> `[Java Class]`
+```
+Right click on the folder/package -> [New] -> [Java Class]
+```
 
 Create 3 private properties for the `Web3`, the `Credentials (account)` and for the `Contract` itself.
  
